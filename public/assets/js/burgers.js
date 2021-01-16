@@ -8,7 +8,7 @@ $(function() {
         devoured: newDevoured
       };
   
-      $.ajax("/api/cats/" + id, {
+      $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newDevouredState
       }).then(
@@ -23,7 +23,7 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#bu").val().trim(),
+        burger_name: $("#bu").val().trim(),
         devoured: $("[name=devoured]:checked").val().trim()
       };
   

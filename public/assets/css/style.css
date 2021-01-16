@@ -1,7 +1,15 @@
+body{
+  background-color: antiquewhite;
+}
+
+h1, #imagen{
+  text-align:center;
+  margin:auto;
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
   }
   
   .label {
@@ -18,3 +26,26 @@ li {
     margin-bottom: 5px;
   }
   
+  #devoured{
+    float:right;
+    text-align: left;
+  }
+
+  #available{
+    float:left;
+    text-align: left;
+  }
+
+  #burgers{
+    float: left;
+    border-width: 25px;
+    border-color: #222222;
+    text-align:center;
+    margin:auto;
+  }
+
+  #new{
+    float: left;
+    text-align:right;
+    margin:auto;
+  }
